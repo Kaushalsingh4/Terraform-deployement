@@ -3,13 +3,13 @@
 variable "business_divsion" {
   description = "Business Division in the large organization this Infrastructure belongs"
   type = string
-  default = "sap"
+  default = "WK"
 }
 # Environment Variable
 variable "environment" {
   description = "Environment Variable used as a prefix"
   type = string
-  default = "dev"
+  default = "Operation"
 }
 
 # Azure Resource Group Name 
