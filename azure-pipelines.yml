@@ -12,7 +12,7 @@ pool:
 steps:
 - task: CopyFiles@2
   inputs:
-    SourceFolder: '$(agent.builddirectory)/Terraform-deployement'
+    SourceFolder: '$(System.DefaultWorkingDirectory)/terraform-manifests'
     Contents: '**'
     TargetFolder: '$(build.artifactstagingdirectory)'
     CleanTargetFolder: 
